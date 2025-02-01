@@ -6,6 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+<<<<<<< HEAD
+    // it's hotfix origin
+=======
     // it's Main origin
     public static void main(String[] args) {
         List<Car> cars = new ArrayList<>();
@@ -55,4 +58,5 @@ public class Main {
     public static void pressToHonk(List<Car> cars) {
        cars.forEach(Car::honk);
     }
+>>>>>>> develop
 }
